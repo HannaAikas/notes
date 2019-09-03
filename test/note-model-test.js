@@ -31,3 +31,21 @@ function testStoresNewNoteInArray() {
 };
 testStoresNewNoteInArray();
 counter++;
+
+function testDisplayAllNotes(){
+  var stringHTML= "<ul><li><div>Favourite food: pesto</div></li><li><div>Favourite drink: seltzer</div></li></ul>"
+  const noteOne = {
+    note1: "Favourite food: pesto"
+  }
+  const noteTwo = {
+    note2: "Favourite drink: seltzer"
+  }
+  var noteList = [noteOne, noteTwo];
+
+  var noteListView = new NoteListView();
+  result = noteListView.displayAllNotes();
+  assert.isTrue(result === stringHTML);
+
+}
+testDisplayAllNotes();
+counter++;
