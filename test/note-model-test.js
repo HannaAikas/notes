@@ -3,6 +3,7 @@ function testNewNoteCreation() {
   assert.isTrue(note.text === "My favorite language is JavaScript");
 };
 testNewNoteCreation();
+counter++;
 
 function testGetNoteText() {
   var note = new Note("My favorite language is JavaScript");
@@ -10,3 +11,4 @@ function testGetNoteText() {
   assert.isTrue(getText === "My favorite language is JavaScript");
 };
 testGetNoteText();
+counter++;
