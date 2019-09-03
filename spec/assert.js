@@ -1,3 +1,5 @@
+// NB. We have used the module pattern to wrap our assert method
+
 (function(exports) {
   var assert = {
     isTrue: function(assertionToCheck) {

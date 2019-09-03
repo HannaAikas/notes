@@ -3,8 +3,8 @@
 ## Purpose
 * Build a notes app as a frontend, single page web app using pure JavaScript.
 
-## Progress to date - Currently working on:
-### Note model specification
+## Progress to date:
+### Done - Step 1 Spec - Note model specification
 - Code is in a file called `note-model.js`.
 - Code is wrapped in the module pattern.
 - Uses the constructor and prototype pattern to define a note model object that can be instantiated.
