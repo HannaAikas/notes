@@ -1,5 +1,4 @@
 function testForController(){
-  //create double
   doubleNote = {
     text: "Favourite drink: seltzer"
   }
@@ -7,15 +6,16 @@ function testForController(){
     arrayOfNotes : [doubleNote]
   }
 
-  //
   var subject = new NoteController(doubleNoteList);
 
   //before calling subject.display()
   var elementOfInterest = document.getElementById("app");
   assert.isTrue(elementOfInterest.innerText === "hello");
+  // let's call
+  subject.display();
   //after calling subject.display()
-  var testString = "<ul><li><div>Favourite drink: seltzer</div></li></ul>";
-  assert.isTrue(elementOfInterest.innerText === testString);
+  var testString = "Favourite drink: seltzer";
+  assert.isTrue(elementOfInterest.innerText == testString);
 }
 
 testForController();
