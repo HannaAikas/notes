@@ -1,12 +1,16 @@
 (function(exports) {
-  function NoteListView(){
-    this.noteList = new NoteList();
-    console.log(this.noteList);
+  function NoteListView(NoteList){
+    this.NoteList = NoteList;
   }
 
   NoteListView.prototype.displayAllNotes = function(){
-    // ATTENTION: look into this below again 
-    return "<ul><li><div>" + this.noteList.text + "</div></li></ul>"
+    var noteArray = this.NoteList.arrayOfNotes;
+    var arrayWithTags = noteArray.map(function(note) {
+      return "<li><div>" + note.text + "</div></li>"
+    });
+    arrayWithTags = arrayWithTags.join("")
+    arrayWithTags = "<ul>" + arrayWithTags + "</ul>"
+    return arrayWithTags
   }
   exports.NoteListView = NoteListView;
 
