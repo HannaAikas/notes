@@ -7,6 +7,14 @@
     <div id="app">
       hello
     </div>
+    <script src="./src/note-model.js"></script>
+    <script src="./src/note-list-model.js"></script>
+    <script src="./src/note-list-view.js"></script>
     <script src="note-controller.js"></script>
+    <script>
+      var aNoteList = new NoteList();
+      var aController = new NoteController(aNoteList);
+      aController.display();
+    </script>
   </body>
 </html>
