@@ -4,7 +4,7 @@
 * Build a notes app as a frontend, single page web app using pure JavaScript.
 
 ## Sequence Diagram (initial version, to be updated)
-![Sequence_Diagram] (./images/notes.png)
+![Sequence_Diagram](./images/notes.png)
 
 ## Progress to date:
 - Steps 1-6 Specs done
