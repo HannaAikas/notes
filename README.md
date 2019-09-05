@@ -3,10 +3,12 @@
 ## Purpose
 * Build a notes app as a frontend, single page web app using pure JavaScript.
 
+## Sequence Diagram (initial version, to be updated)
+![Sequence_Diagram] (./images/notes.png)
+
 ## Progress to date:
-- Step 1 Spec done
-- Step 2 Spec done
-- Step 3 Spec in progress (note list view)
+- Steps 1-6 Specs done
+- Step 7 Spec to be done next
 
 ## To do
 * See below list of User Stories
