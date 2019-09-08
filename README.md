@@ -7,11 +7,17 @@
 ![Sequence_Diagram](./images/notes.png)
 
 ## Progress to date:
-- Steps 1-6 Specs done
-- Step 7 Spec to be done next
+- Build testing framework
+- Create model for a single note
+- Create model for a list of notes (with a method to add a new note to it)
+- Create note list view, which takes data from the model and converts it to a string with HTML tags
+- Create index.html page, create controller that takes data from the view and inserts it into an element on the HTML page
+
 
 ## To do
-* See below list of User Stories
+- Step 7 Spec to be done next - TDD a single note view
+- After that - currently the app has no user interface, so this needs to be built
+- After that - see below list of User Stories for final end product 
 
 ### User Stories - For full project
 
